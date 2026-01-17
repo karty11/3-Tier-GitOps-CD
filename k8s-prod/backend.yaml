@@ -1,4 +1,5 @@
---- 
+---
+
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -18,7 +19,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: karty11/backend:8a79a3b84879b6bf5169bb5fc90867d41e6d81bd
+          image: karty11/backend:9e9f7375e05d0c9890b49fd40b0a08761cae5a32
           ports:
             - containerPort: 5000
           env:
